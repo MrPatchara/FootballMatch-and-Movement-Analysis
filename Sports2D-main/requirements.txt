@@ -1,0 +1,11 @@
+# Video to Pose & Angles — Python 3.9+
+# แนะนำ: pip install -e .  (ติดตั้งโปรเจกต์และ dependencies พร้อมกัน)
+# หรือ: pip install -r requirements.txt แล้ว pip install -e .
+
+# ใช้ NumPy 1.x เพื่อให้ OpenCV (cv2) ทำงานได้
+numpy>=1.23,<2
+
+imageio_ffmpeg>=0.4.9
+Pose2Sim>=0.10.40
+PyQt6>=6.5
+toml>=0.10

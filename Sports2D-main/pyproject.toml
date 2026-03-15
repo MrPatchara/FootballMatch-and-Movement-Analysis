@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-to-pose-angles"
+version = "0.8.0"
+description = "Convert video to 2D pose and joint/segment angles (GUI app)."
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["markerless", "pose", "kinematics", "video", "joint angles", "biomechanics"]
+license = "MIT"
+license-files = ["LICENSE"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = [
+    "numpy>=1.23,<2",
+    "imageio_ffmpeg",
+    "Pose2Sim>=0.10.40",
+    "PyQt6>=6.5",
+    "toml>=0.10"
+]
+
+[tool.setuptools]
+packages = {find = {}}
+
+[project.scripts]
+video-to-pose = "Sports2D.Sports2D:main"

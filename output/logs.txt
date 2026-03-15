@@ -1,0 +1,100 @@
+
+
+---------------------------------------------------------------------
+Processing test Exam_2026-03-06_135002_tvc2.avi
+On Sunday 15. March 2026, 10:18:11
+---------------------------------------------------------------------
+
+Estimating pose...
+Using HALPE_26 model (body and feet) for pose estimation in balanced mode.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+Persons detection is run every 4 frames (pose estimation is run at every frame). Tracking is done with sports2d.
+1 person is analyzed. Person ordering method is highest_likelihood.
+keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the pose estimation model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the pose estimation model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+Reordered persons: IDs of persons [0] become [0].
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 100 frames. Large gaps filled with last_value.
+Rejecting outliers with a Hampel filter.
+Filtering with Butterworth filter, 4th order, 6.0 Hz.
+Pose in pixels saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test Exam_2026-03-06_135002_tvc2_Sports2D\test Exam_2026-03-06_135002_tvc2_Sports2D_px_person00.trc.
+
+Converting pose to meters:
+Converting from pixels to meters using a person height of 1.65 in meters (manual input), and of 717.27 in pixels (calculated).
+Perspective effects corrected using a camera-to-person distance of 10.00 m (obtained from a manual input).
+Camera horizon: 2.45°, corrected using gait kinematics.
+Floor level: 1084.49 px (from the top of the image), gait starting at 0.00 px in the front direction for the first person. Corrected using gait kinematics.
+
+Calibration saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test Exam_2026-03-06_135002_tvc2_Sports2D\test Exam_2026-03-06_135002_tvc2_Sports2D_calib.toml.
+- Person 0: Seen from the front.
+Pose plots (m) saved in C:\Github\FootballMatch-and-Movement-Analysis\output\test Exam_2026-03-06_135002_tvc2_Sports2D\test Exam_2026-03-06_135002_tvc2_Sports2D_graphs.
+Pose in meters saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test Exam_2026-03-06_135002_tvc2_Sports2D\test Exam_2026-03-06_135002_tvc2_Sports2D_m_person00.trc. Also saved in c3d format.
+
+Post-processing angles (without inverse kinematics):
+- Person 0: Interpolating missing sequences if they are smaller than 100 frames. Large gaps filled with last_value.
+Rejecting outliers with a Hampel filter.
+Filtering with Butterworth filter, 4th order, 6.0 Hz.
+Correcting segment angles by removing the 2.45° floor angle.
+Angles saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test Exam_2026-03-06_135002_tvc2_Sports2D\test Exam_2026-03-06_135002_tvc2_Sports2D_angles_person00.mot.
+Pose plots (m) saved in C:\Github\FootballMatch-and-Movement-Analysis\output\test Exam_2026-03-06_135002_tvc2_Sports2D\test Exam_2026-03-06_135002_tvc2_Sports2D_graphs.
+
+Saving images of processed pose and angles:
+Processed video saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test Exam_2026-03-06_135002_tvc2_Sports2D\test Exam_2026-03-06_135002_tvc2_Sports2D.mp4.
+
+Processing test Exam_2026-03-06_135002_tvc2.avi took 241.81 s.
+
+
+---------------------------------------------------------------------
+Processing test4 Exam_2026-03-06_143128_tvc1.avi
+On Sunday 15. March 2026, 10:34:35
+---------------------------------------------------------------------
+
+Estimating pose...
+Using HALPE_26 model (body and feet) for pose estimation in balanced mode.
+
+No valid CUDA installation found: using OpenVINO backend with CPU.
+Persons detection is run every 4 frames (pose estimation is run at every frame). Tracking is done with sports2d.
+1 person is analyzed. Person ordering method is highest_likelihood.
+keypoint_likelihood_threshold=0.3, average_likelihood_threshold=0.5, keypoint_number_threshold=0.3
+Skipping right wrist angle computation because at least one of the following keypoints is not provided by the pose estimation model: ['RElbow', 'RWrist', 'RIndex'].
+Skipping left wrist angle computation because at least one of the following keypoints is not provided by the pose estimation model: ['LElbow', 'LIndex', 'LWrist'].
+
+Processing video stream...
+Video processing completed.
+Reordered persons: IDs of persons [0] become [0].
+
+Post-processing pose:
+- Person 0: Interpolating missing sequences if they are smaller than 100 frames. Large gaps filled with last_value.
+Rejecting outliers with a Hampel filter.
+Filtering with Butterworth filter, 4th order, 6.0 Hz.
+Pose in pixels saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test4 Exam_2026-03-06_143128_tvc1_Sports2D\test4 Exam_2026-03-06_143128_tvc1_Sports2D_px_person00.trc.
+
+Converting pose to meters:
+Converting from pixels to meters using a person height of 1.65 in meters (manual input), and of 799.59 in pixels (calculated).
+Perspective effects corrected using a camera-to-person distance of 10.00 m (obtained from a manual input).
+Camera horizon: -2.04°, corrected using gait kinematics.
+Floor level: 1007.75 px (from the top of the image), gait starting at 0.00 px in the left direction for the first person. Corrected using gait kinematics.
+
+Calibration saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test4 Exam_2026-03-06_143128_tvc1_Sports2D\test4 Exam_2026-03-06_143128_tvc1_Sports2D_calib.toml.
+- Person 0: Seen from the left.
+Pose plots (m) saved in C:\Github\FootballMatch-and-Movement-Analysis\output\test4 Exam_2026-03-06_143128_tvc1_Sports2D\test4 Exam_2026-03-06_143128_tvc1_Sports2D_graphs.
+Pose in meters saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test4 Exam_2026-03-06_143128_tvc1_Sports2D\test4 Exam_2026-03-06_143128_tvc1_Sports2D_m_person00.trc. Also saved in c3d format.
+
+Post-processing angles (without inverse kinematics):
+- Person 0: Interpolating missing sequences if they are smaller than 100 frames. Large gaps filled with last_value.
+Rejecting outliers with a Hampel filter.
+Filtering with Butterworth filter, 4th order, 6.0 Hz.
+Correcting segment angles by removing the -2.04° floor angle.
+Angles saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test4 Exam_2026-03-06_143128_tvc1_Sports2D\test4 Exam_2026-03-06_143128_tvc1_Sports2D_angles_person00.mot.
+Pose plots (m) saved in C:\Github\FootballMatch-and-Movement-Analysis\output\test4 Exam_2026-03-06_143128_tvc1_Sports2D\test4 Exam_2026-03-06_143128_tvc1_Sports2D_graphs.
+
+Saving images of processed pose and angles:
+Processed video saved to C:\Github\FootballMatch-and-Movement-Analysis\output\test4 Exam_2026-03-06_143128_tvc1_Sports2D\test4 Exam_2026-03-06_143128_tvc1_Sports2D.mp4.
+
+Processing test4 Exam_2026-03-06_143128_tvc1.avi took 243.36 s.
